@@ -86,3 +86,13 @@
 #     return h
 # input('Tecle qq coisa para saber a hora:')
 # print(hora_certa())
+
+alunos = []
+alunos = ['pedro', 'carlos', 'adones', 'paulo']
+print('pedro' in alunos)
+
+# for idx in range(0,len(alunos)):
+#     print(f'{idx+1}: {alunos[idx]}')
+
+for aluno in alunos:
+    print()
